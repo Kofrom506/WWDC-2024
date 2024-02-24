@@ -11,6 +11,58 @@
 		FA9DCC072B748845007BE1DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DCC062B748845007BE1DF /* ContentView.swift */; };
 		FA9DCC092B748847007BE1DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9DCC082B748847007BE1DF /* Assets.xcassets */; };
 		FA9DCC0C2B748847007BE1DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9DCC0B2B748847007BE1DF /* Preview Assets.xcassets */; };
+		FA9DCC142B749440007BE1DF /* fender.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA9DCC122B74943F007BE1DF /* fender.usdz */; };
+		FA9DCC152B749440007BE1DF /* toy.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA9DCC132B749440007BE1DF /* toy.usdz */; };
+		FAB6B6BF2B85A4040093C78B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6B6BE2B85A4040093C78B /* HomeView.swift */; };
+		FAB6B6C12B85A40F0093C78B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6B6C02B85A40F0093C78B /* HomeViewModel.swift */; };
+		FAB6B6C32B85A4290093C78B /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6B6C22B85A4290093C78B /* Instruction.swift */; };
+		FAB6B6C52B85A4E90093C78B /* NavigatePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6B6C42B85A4E90093C78B /* NavigatePage.swift */; };
+		FAB6B6CE2B85A5050093C78B /* ScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6B6C72B85A5050093C78B /* ScreenRouter.swift */; };
+		FAB6B6CF2B85A5050093C78B /* RouterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6B6C92B85A5050093C78B /* RouterFactory.swift */; };
+		FAB6B6D02B85A5050093C78B /* View + Cover.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6B6CA2B85A5050093C78B /* View + Cover.swift */; };
+		FAB6B6D12B85A5050093C78B /* NavigationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6B6CB2B85A5050093C78B /* NavigationNode.swift */; };
+		FAB6B6D22B85A5050093C78B /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6B6CC2B85A5050093C78B /* Router.swift */; };
+		FAB6B6D32B85A5050093C78B /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6B6CD2B85A5050093C78B /* Routing.swift */; };
+		FAB6B6D52B85A6D70093C78B /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6B6D42B85A6D70093C78B /* OnBoardingView.swift */; };
+		FAB6B6D72B85A7020093C78B /* OnBoardingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6B6D62B85A7020093C78B /* OnBoardingData.swift */; };
+		FAB6B6D92B85A7230093C78B /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6B6D82B85A7230093C78B /* PrimaryButton.swift */; };
+		FAB6B6DB2B85DC5F0093C78B /* ButtomBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6B6DA2B85DC5F0093C78B /* ButtomBottomView.swift */; };
+		FAB6B6DD2B85DCFF0093C78B /* ImageItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6B6DC2B85DCFF0093C78B /* ImageItemView.swift */; };
+		FAB6B6E12B85DD430093C78B /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6B6E02B85DD430093C78B /* ARView.swift */; };
+		FAB6B6E32B85DD520093C78B /* ARViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6B6E22B85DD520093C78B /* ARViewModel.swift */; };
+		FAB7C2C32B791253007469C4 /* Wayang.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB7C2C22B791253007469C4 /* Wayang.swift */; };
+		FAB7C2C92B7E4AAD007469C4 /* DetailItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB7C2C82B7E4AAD007469C4 /* DetailItemView.swift */; };
+		FAB7C2E72B7E4B10007469C4 /* LeagueSpartan-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2CB2B7E4B0F007469C4 /* LeagueSpartan-Medium.ttf */; };
+		FAB7C2E82B7E4B10007469C4 /* LeagueSpartan-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2CC2B7E4B0F007469C4 /* LeagueSpartan-ExtraBold.ttf */; };
+		FAB7C2E92B7E4B10007469C4 /* LeagueSpartan-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2CD2B7E4B0F007469C4 /* LeagueSpartan-Black.ttf */; };
+		FAB7C2EA2B7E4B10007469C4 /* LeagueSpartan-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2CE2B7E4B0F007469C4 /* LeagueSpartan-ExtraLight.ttf */; };
+		FAB7C2EB2B7E4B10007469C4 /* LeagueSpartan-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2CF2B7E4B0F007469C4 /* LeagueSpartan-Regular.ttf */; };
+		FAB7C2EC2B7E4B10007469C4 /* LeagueSpartan-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2D02B7E4B0F007469C4 /* LeagueSpartan-Light.ttf */; };
+		FAB7C2ED2B7E4B10007469C4 /* LeagueSpartan-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2D12B7E4B0F007469C4 /* LeagueSpartan-Thin.ttf */; };
+		FAB7C2EE2B7E4B10007469C4 /* LeagueSpartan-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2D22B7E4B0F007469C4 /* LeagueSpartan-SemiBold.ttf */; };
+		FAB7C2EF2B7E4B10007469C4 /* LeagueSpartan-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2D32B7E4B0F007469C4 /* LeagueSpartan-Bold.ttf */; };
+		FAB7C2F02B7E4B10007469C4 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2D52B7E4B10007469C4 /* Poppins-ExtraLight.ttf */; };
+		FAB7C2F12B7E4B10007469C4 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2D62B7E4B10007469C4 /* Poppins-ThinItalic.ttf */; };
+		FAB7C2F22B7E4B10007469C4 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2D72B7E4B10007469C4 /* Poppins-ExtraLightItalic.ttf */; };
+		FAB7C2F32B7E4B10007469C4 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2D82B7E4B10007469C4 /* Poppins-BoldItalic.ttf */; };
+		FAB7C2F42B7E4B10007469C4 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2D92B7E4B10007469C4 /* Poppins-Light.ttf */; };
+		FAB7C2F52B7E4B10007469C4 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2DA2B7E4B10007469C4 /* Poppins-Medium.ttf */; };
+		FAB7C2F62B7E4B10007469C4 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2DB2B7E4B10007469C4 /* Poppins-SemiBoldItalic.ttf */; };
+		FAB7C2F72B7E4B10007469C4 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2DC2B7E4B10007469C4 /* Poppins-ExtraBoldItalic.ttf */; };
+		FAB7C2F82B7E4B10007469C4 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2DD2B7E4B10007469C4 /* Poppins-ExtraBold.ttf */; };
+		FAB7C2F92B7E4B10007469C4 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2DE2B7E4B10007469C4 /* Poppins-BlackItalic.ttf */; };
+		FAB7C2FA2B7E4B10007469C4 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2DF2B7E4B10007469C4 /* Poppins-Regular.ttf */; };
+		FAB7C2FB2B7E4B10007469C4 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2E02B7E4B10007469C4 /* Poppins-LightItalic.ttf */; };
+		FAB7C2FC2B7E4B10007469C4 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2E12B7E4B10007469C4 /* Poppins-Bold.ttf */; };
+		FAB7C2FD2B7E4B10007469C4 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2E22B7E4B10007469C4 /* Poppins-Black.ttf */; };
+		FAB7C2FE2B7E4B10007469C4 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2E32B7E4B10007469C4 /* Poppins-Thin.ttf */; };
+		FAB7C2FF2B7E4B10007469C4 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2E42B7E4B10007469C4 /* Poppins-SemiBold.ttf */; };
+		FAB7C3002B7E4B10007469C4 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2E52B7E4B10007469C4 /* Poppins-Italic.ttf */; };
+		FAB7C3012B7E4B10007469C4 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C2E62B7E4B10007469C4 /* Poppins-MediumItalic.ttf */; };
+		FAB7C3042B7E4B3A007469C4 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB7C3032B7E4B3A007469C4 /* Color.swift */; };
+		FAB7C3062B7E4B42007469C4 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB7C3052B7E4B42007469C4 /* Font.swift */; };
+		FAB7C3082B7E4B57007469C4 /* ViewPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB7C3072B7E4B57007469C4 /* ViewPadding.swift */; };
+		FAB7C30A2B805415007469C4 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB7C3092B805415007469C4 /* Color.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +71,58 @@
 		FA9DCC062B748845007BE1DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA9DCC082B748847007BE1DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA9DCC0B2B748847007BE1DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA9DCC122B74943F007BE1DF /* fender.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender.usdz; sourceTree = "<group>"; };
+		FA9DCC132B749440007BE1DF /* toy.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy.usdz; sourceTree = "<group>"; };
+		FAB6B6BE2B85A4040093C78B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FAB6B6C02B85A40F0093C78B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FAB6B6C22B85A4290093C78B /* Instruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instruction.swift; sourceTree = "<group>"; };
+		FAB6B6C42B85A4E90093C78B /* NavigatePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatePage.swift; sourceTree = "<group>"; };
+		FAB6B6C72B85A5050093C78B /* ScreenRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenRouter.swift; sourceTree = "<group>"; };
+		FAB6B6C92B85A5050093C78B /* RouterFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterFactory.swift; sourceTree = "<group>"; };
+		FAB6B6CA2B85A5050093C78B /* View + Cover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View + Cover.swift"; sourceTree = "<group>"; };
+		FAB6B6CB2B85A5050093C78B /* NavigationNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationNode.swift; sourceTree = "<group>"; };
+		FAB6B6CC2B85A5050093C78B /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		FAB6B6CD2B85A5050093C78B /* Routing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
+		FAB6B6D42B85A6D70093C78B /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		FAB6B6D62B85A7020093C78B /* OnBoardingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingData.swift; sourceTree = "<group>"; };
+		FAB6B6D82B85A7230093C78B /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		FAB6B6DA2B85DC5F0093C78B /* ButtomBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtomBottomView.swift; sourceTree = "<group>"; };
+		FAB6B6DC2B85DCFF0093C78B /* ImageItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageItemView.swift; sourceTree = "<group>"; };
+		FAB6B6E02B85DD430093C78B /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		FAB6B6E22B85DD520093C78B /* ARViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewModel.swift; sourceTree = "<group>"; };
+		FAB7C2C22B791253007469C4 /* Wayang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wayang.swift; sourceTree = "<group>"; };
+		FAB7C2C82B7E4AAD007469C4 /* DetailItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItemView.swift; sourceTree = "<group>"; };
+		FAB7C2CB2B7E4B0F007469C4 /* LeagueSpartan-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Medium.ttf"; sourceTree = "<group>"; };
+		FAB7C2CC2B7E4B0F007469C4 /* LeagueSpartan-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FAB7C2CD2B7E4B0F007469C4 /* LeagueSpartan-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Black.ttf"; sourceTree = "<group>"; };
+		FAB7C2CE2B7E4B0F007469C4 /* LeagueSpartan-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-ExtraLight.ttf"; sourceTree = "<group>"; };
+		FAB7C2CF2B7E4B0F007469C4 /* LeagueSpartan-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Regular.ttf"; sourceTree = "<group>"; };
+		FAB7C2D02B7E4B0F007469C4 /* LeagueSpartan-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Light.ttf"; sourceTree = "<group>"; };
+		FAB7C2D12B7E4B0F007469C4 /* LeagueSpartan-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Thin.ttf"; sourceTree = "<group>"; };
+		FAB7C2D22B7E4B0F007469C4 /* LeagueSpartan-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-SemiBold.ttf"; sourceTree = "<group>"; };
+		FAB7C2D32B7E4B0F007469C4 /* LeagueSpartan-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Bold.ttf"; sourceTree = "<group>"; };
+		FAB7C2D52B7E4B10007469C4 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		FAB7C2D62B7E4B10007469C4 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		FAB7C2D72B7E4B10007469C4 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		FAB7C2D82B7E4B10007469C4 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FAB7C2D92B7E4B10007469C4 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		FAB7C2DA2B7E4B10007469C4 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		FAB7C2DB2B7E4B10007469C4 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		FAB7C2DC2B7E4B10007469C4 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		FAB7C2DD2B7E4B10007469C4 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FAB7C2DE2B7E4B10007469C4 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		FAB7C2DF2B7E4B10007469C4 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		FAB7C2E02B7E4B10007469C4 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		FAB7C2E12B7E4B10007469C4 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		FAB7C2E22B7E4B10007469C4 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		FAB7C2E32B7E4B10007469C4 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		FAB7C2E42B7E4B10007469C4 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		FAB7C2E52B7E4B10007469C4 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		FAB7C2E62B7E4B10007469C4 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		FAB7C3032B7E4B3A007469C4 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		FAB7C3052B7E4B42007469C4 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		FAB7C3072B7E4B57007469C4 /* ViewPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPadding.swift; sourceTree = "<group>"; };
+		FAB7C3092B805415007469C4 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +155,18 @@
 		FA9DCC032B748845007BE1DF /* wayangAR */ = {
 			isa = PBXGroup;
 			children = (
+				FAB7C30B2B80B53F007469C4 /* Models */,
+				FAB7C3022B7E4B29007469C4 /* Decoration */,
+				FAB7C2C72B7E4A5D007469C4 /* Components */,
+				FAB7C2C62B7E4A52007469C4 /* Enum */,
+				FAB7C2C52B7E4A41007469C4 /* Resources */,
+				FAB7C2C42B791B15007469C4 /* Presentation */,
+				FAB7C2C12B7911FA007469C4 /* Model */,
 				FA9DCC042B748845007BE1DF /* AppDelegate.swift */,
 				FA9DCC062B748845007BE1DF /* ContentView.swift */,
 				FA9DCC082B748847007BE1DF /* Assets.xcassets */,
+				FAB7C3092B805415007469C4 /* Color.xcassets */,
+				FAB6B6C62B85A5050093C78B /* Router */,
 				FA9DCC0A2B748847007BE1DF /* Preview Content */,
 			);
 			path = wayangAR;
@@ -65,6 +178,161 @@
 				FA9DCC0B2B748847007BE1DF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAB6B6BC2B85A3C40093C78B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FAB6B6BE2B85A4040093C78B /* HomeView.swift */,
+				FAB6B6C02B85A40F0093C78B /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FAB6B6BD2B85A3CB0093C78B /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				FAB6B6D42B85A6D70093C78B /* OnBoardingView.swift */,
+				FAB6B6D62B85A7020093C78B /* OnBoardingData.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		FAB6B6C62B85A5050093C78B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				FAB6B6C72B85A5050093C78B /* ScreenRouter.swift */,
+				FAB6B6C82B85A5050093C78B /* Helper */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		FAB6B6C82B85A5050093C78B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FAB6B6C92B85A5050093C78B /* RouterFactory.swift */,
+				FAB6B6CA2B85A5050093C78B /* View + Cover.swift */,
+				FAB6B6CB2B85A5050093C78B /* NavigationNode.swift */,
+				FAB6B6CC2B85A5050093C78B /* Router.swift */,
+				FAB6B6CD2B85A5050093C78B /* Routing.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FAB6B6DF2B85DD380093C78B /* ARView */ = {
+			isa = PBXGroup;
+			children = (
+				FAB6B6E02B85DD430093C78B /* ARView.swift */,
+				FAB6B6E22B85DD520093C78B /* ARViewModel.swift */,
+			);
+			path = ARView;
+			sourceTree = "<group>";
+		};
+		FAB7C2C12B7911FA007469C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAB7C2C22B791253007469C4 /* Wayang.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAB7C2C42B791B15007469C4 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				FAB6B6DF2B85DD380093C78B /* ARView */,
+				FAB6B6BD2B85A3CB0093C78B /* OnBoarding */,
+				FAB6B6BC2B85A3C40093C78B /* Home */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		FAB7C2C52B7E4A41007469C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAB7C2CA2B7E4B0F007469C4 /* League-Spartan copy */,
+				FAB7C2D42B7E4B10007469C4 /* Poppins copy */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAB7C2C62B7E4A52007469C4 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		FAB7C2C72B7E4A5D007469C4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FAB7C2C82B7E4AAD007469C4 /* DetailItemView.swift */,
+				FAB6B6C22B85A4290093C78B /* Instruction.swift */,
+				FAB6B6C42B85A4E90093C78B /* NavigatePage.swift */,
+				FAB6B6D82B85A7230093C78B /* PrimaryButton.swift */,
+				FAB6B6DA2B85DC5F0093C78B /* ButtomBottomView.swift */,
+				FAB6B6DC2B85DCFF0093C78B /* ImageItemView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FAB7C2CA2B7E4B0F007469C4 /* League-Spartan copy */ = {
+			isa = PBXGroup;
+			children = (
+				FAB7C2CB2B7E4B0F007469C4 /* LeagueSpartan-Medium.ttf */,
+				FAB7C2CC2B7E4B0F007469C4 /* LeagueSpartan-ExtraBold.ttf */,
+				FAB7C2CD2B7E4B0F007469C4 /* LeagueSpartan-Black.ttf */,
+				FAB7C2CE2B7E4B0F007469C4 /* LeagueSpartan-ExtraLight.ttf */,
+				FAB7C2CF2B7E4B0F007469C4 /* LeagueSpartan-Regular.ttf */,
+				FAB7C2D02B7E4B0F007469C4 /* LeagueSpartan-Light.ttf */,
+				FAB7C2D12B7E4B0F007469C4 /* LeagueSpartan-Thin.ttf */,
+				FAB7C2D22B7E4B0F007469C4 /* LeagueSpartan-SemiBold.ttf */,
+				FAB7C2D32B7E4B0F007469C4 /* LeagueSpartan-Bold.ttf */,
+			);
+			path = "League-Spartan copy";
+			sourceTree = "<group>";
+		};
+		FAB7C2D42B7E4B10007469C4 /* Poppins copy */ = {
+			isa = PBXGroup;
+			children = (
+				FAB7C2D52B7E4B10007469C4 /* Poppins-ExtraLight.ttf */,
+				FAB7C2D62B7E4B10007469C4 /* Poppins-ThinItalic.ttf */,
+				FAB7C2D72B7E4B10007469C4 /* Poppins-ExtraLightItalic.ttf */,
+				FAB7C2D82B7E4B10007469C4 /* Poppins-BoldItalic.ttf */,
+				FAB7C2D92B7E4B10007469C4 /* Poppins-Light.ttf */,
+				FAB7C2DA2B7E4B10007469C4 /* Poppins-Medium.ttf */,
+				FAB7C2DB2B7E4B10007469C4 /* Poppins-SemiBoldItalic.ttf */,
+				FAB7C2DC2B7E4B10007469C4 /* Poppins-ExtraBoldItalic.ttf */,
+				FAB7C2DD2B7E4B10007469C4 /* Poppins-ExtraBold.ttf */,
+				FAB7C2DE2B7E4B10007469C4 /* Poppins-BlackItalic.ttf */,
+				FAB7C2DF2B7E4B10007469C4 /* Poppins-Regular.ttf */,
+				FAB7C2E02B7E4B10007469C4 /* Poppins-LightItalic.ttf */,
+				FAB7C2E12B7E4B10007469C4 /* Poppins-Bold.ttf */,
+				FAB7C2E22B7E4B10007469C4 /* Poppins-Black.ttf */,
+				FAB7C2E32B7E4B10007469C4 /* Poppins-Thin.ttf */,
+				FAB7C2E42B7E4B10007469C4 /* Poppins-SemiBold.ttf */,
+				FAB7C2E52B7E4B10007469C4 /* Poppins-Italic.ttf */,
+				FAB7C2E62B7E4B10007469C4 /* Poppins-MediumItalic.ttf */,
+			);
+			path = "Poppins copy";
+			sourceTree = "<group>";
+		};
+		FAB7C3022B7E4B29007469C4 /* Decoration */ = {
+			isa = PBXGroup;
+			children = (
+				FAB7C3032B7E4B3A007469C4 /* Color.swift */,
+				FAB7C3052B7E4B42007469C4 /* Font.swift */,
+				FAB7C3072B7E4B57007469C4 /* ViewPadding.swift */,
+			);
+			path = Decoration;
+			sourceTree = "<group>";
+		};
+		FAB7C30B2B80B53F007469C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DCC122B74943F007BE1DF /* fender.usdz */,
+				FA9DCC132B749440007BE1DF /* toy.usdz */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +393,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB7C2F22B7E4B10007469C4 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				FAB7C2FE2B7E4B10007469C4 /* Poppins-Thin.ttf in Resources */,
+				FAB7C2F42B7E4B10007469C4 /* Poppins-Light.ttf in Resources */,
 				FA9DCC0C2B748847007BE1DF /* Preview Assets.xcassets in Resources */,
+				FAB7C2F72B7E4B10007469C4 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				FAB7C2E82B7E4B10007469C4 /* LeagueSpartan-ExtraBold.ttf in Resources */,
+				FAB7C2EC2B7E4B10007469C4 /* LeagueSpartan-Light.ttf in Resources */,
+				FAB7C2FD2B7E4B10007469C4 /* Poppins-Black.ttf in Resources */,
+				FAB7C2F62B7E4B10007469C4 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				FAB7C30A2B805415007469C4 /* Color.xcassets in Resources */,
+				FAB7C2ED2B7E4B10007469C4 /* LeagueSpartan-Thin.ttf in Resources */,
+				FA9DCC152B749440007BE1DF /* toy.usdz in Resources */,
+				FAB7C2EB2B7E4B10007469C4 /* LeagueSpartan-Regular.ttf in Resources */,
+				FAB7C2F02B7E4B10007469C4 /* Poppins-ExtraLight.ttf in Resources */,
+				FAB7C2FB2B7E4B10007469C4 /* Poppins-LightItalic.ttf in Resources */,
+				FAB7C2EF2B7E4B10007469C4 /* LeagueSpartan-Bold.ttf in Resources */,
+				FAB7C2F32B7E4B10007469C4 /* Poppins-BoldItalic.ttf in Resources */,
+				FAB7C2E72B7E4B10007469C4 /* LeagueSpartan-Medium.ttf in Resources */,
+				FAB7C2E92B7E4B10007469C4 /* LeagueSpartan-Black.ttf in Resources */,
+				FAB7C3002B7E4B10007469C4 /* Poppins-Italic.ttf in Resources */,
+				FAB7C2FA2B7E4B10007469C4 /* Poppins-Regular.ttf in Resources */,
+				FAB7C2EA2B7E4B10007469C4 /* LeagueSpartan-ExtraLight.ttf in Resources */,
+				FAB7C2F52B7E4B10007469C4 /* Poppins-Medium.ttf in Resources */,
+				FAB7C2F92B7E4B10007469C4 /* Poppins-BlackItalic.ttf in Resources */,
 				FA9DCC092B748847007BE1DF /* Assets.xcassets in Resources */,
+				FAB7C3012B7E4B10007469C4 /* Poppins-MediumItalic.ttf in Resources */,
+				FAB7C2FF2B7E4B10007469C4 /* Poppins-SemiBold.ttf in Resources */,
+				FAB7C2FC2B7E4B10007469C4 /* Poppins-Bold.ttf in Resources */,
+				FAB7C2F82B7E4B10007469C4 /* Poppins-ExtraBold.ttf in Resources */,
+				FAB7C2F12B7E4B10007469C4 /* Poppins-ThinItalic.ttf in Resources */,
+				FAB7C2EE2B7E4B10007469C4 /* LeagueSpartan-SemiBold.ttf in Resources */,
+				FA9DCC142B749440007BE1DF /* fender.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +435,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB7C2C92B7E4AAD007469C4 /* DetailItemView.swift in Sources */,
+				FAB6B6D72B85A7020093C78B /* OnBoardingData.swift in Sources */,
+				FAB6B6D92B85A7230093C78B /* PrimaryButton.swift in Sources */,
+				FAB6B6E32B85DD520093C78B /* ARViewModel.swift in Sources */,
+				FAB6B6E12B85DD430093C78B /* ARView.swift in Sources */,
+				FAB6B6D12B85A5050093C78B /* NavigationNode.swift in Sources */,
+				FAB6B6D32B85A5050093C78B /* Routing.swift in Sources */,
+				FAB6B6D52B85A6D70093C78B /* OnBoardingView.swift in Sources */,
+				FAB6B6C12B85A40F0093C78B /* HomeViewModel.swift in Sources */,
+				FAB7C2C32B791253007469C4 /* Wayang.swift in Sources */,
+				FAB6B6CF2B85A5050093C78B /* RouterFactory.swift in Sources */,
+				FAB6B6D02B85A5050093C78B /* View + Cover.swift in Sources */,
+				FAB7C3062B7E4B42007469C4 /* Font.swift in Sources */,
+				FAB7C3082B7E4B57007469C4 /* ViewPadding.swift in Sources */,
+				FAB6B6D22B85A5050093C78B /* Router.swift in Sources */,
 				FA9DCC072B748845007BE1DF /* ContentView.swift in Sources */,
+				FAB6B6CE2B85A5050093C78B /* ScreenRouter.swift in Sources */,
+				FAB6B6DD2B85DCFF0093C78B /* ImageItemView.swift in Sources */,
+				FAB6B6DB2B85DC5F0093C78B /* ButtomBottomView.swift in Sources */,
+				FAB6B6BF2B85A4040093C78B /* HomeView.swift in Sources */,
+				FAB7C3042B7E4B3A007469C4 /* Color.swift in Sources */,
+				FAB6B6C52B85A4E90093C78B /* NavigatePage.swift in Sources */,
+				FAB6B6C32B85A4290093C78B /* Instruction.swift in Sources */,
 				FA9DCC052B748845007BE1DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

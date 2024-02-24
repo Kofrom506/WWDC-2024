@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "592080E8-578B-461E-BE73-F5CBBDC8F75E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "89F50E56-83A2-48FD-837C-6866676D524E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wayangAR/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "updateUIView(_:context:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "89F50E56-83A2-48FD-837C-6866676D524E - c0bbd1cf78b845e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "wayangAR.ARViewContainer.updateUIView(_: RealityKit.ARView, context: SwiftUI.UIViewRepresentableContext&lt;wayangAR.ARViewContainer&gt;) -&gt; ()"
+                  moduleName = "wayangAR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evansusanto/Documents/wayangAR/wayangAR/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "740">
+               </Location>
+               <Location
+                  uuid = "89F50E56-83A2-48FD-837C-6866676D524E - c0bbd1cf78b8444c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "wayangAR.ARViewContainer.updateUIView(_: RealityKit.ARView, context: SwiftUI.UIViewRepresentableContext&lt;wayangAR.ARViewContainer&gt;) -&gt; ()"
+                  moduleName = "wayangAR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evansusanto/Documents/wayangAR/wayangAR/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "740">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
