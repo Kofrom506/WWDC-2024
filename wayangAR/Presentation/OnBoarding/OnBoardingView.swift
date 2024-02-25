@@ -9,6 +9,7 @@ import SwiftUI
 
 
 struct OnboardingView: View {
+    
     @EnvironmentObject var screenRouter: ScreenRouter
     @State private var currentStep = 0
     var body: some View {
@@ -75,7 +76,7 @@ struct OnboardingView: View {
                     .edgesIgnoringSafeArea(.all)
                     
                     
-                    PrimaryButton(title: currentStep < OnboardingData.list.count - 1 ? "Continue" : "Save The Princess", backgroundColor: JColor.greenSoft, foregroundColor: .white,strokeColor: .white){
+                    PrimaryButton(title: currentStep < OnboardingData.list.count - 1 ? "Continue" : "See Wayang In AR", backgroundColor: JColor.greenSoft, foregroundColor: .white,strokeColor: .white){
                         if self.currentStep < OnboardingData.list.count - 1 {
                             self.currentStep += 1
                         } else {

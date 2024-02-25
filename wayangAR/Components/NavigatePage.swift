@@ -28,11 +28,10 @@ struct NavigatePage: View {
             .resizable()
             .scaledToFit()
             .frame(width: geo.size.width * multiplier)
-        //            .background(
-        //                Color.red
-        //            )
+     
             .onTapGesture {
-                
+                print(destination)
+                print("Clicked")
                 screenRouter.navigateTo(destination)
                 self.action?()
                 

@@ -5,12 +5,15 @@ import SwiftUI
 enum ScreenRoute: ScreenProtocol {
     case home
     case onBoarding
-        
+    case wayangView
+    case arView
+    case selectView
+    
     var embedInNavView: Bool {
         switch self {
         case .home:
             return true
-        case .onBoarding:
+        case .onBoarding, .selectView, .wayangView, .arView:
             return false
        
         }
@@ -22,9 +25,14 @@ class ScreenRouterFactory: RouterFactory {
         switch screen {
         case .home:
             HomeView()
-        
+        case .arView:
+            ARViewContainer(modelConfirmedForPlacement: .constant(""))
+        case .wayangView:
+            WayangView()
         case .onBoarding:
             OnboardingView()
+        case .selectView:
+            SelectView()
         }
         
     }

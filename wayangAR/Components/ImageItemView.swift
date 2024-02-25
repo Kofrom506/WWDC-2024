@@ -11,7 +11,7 @@ struct ImageItem: View {
     
     @Binding var isPlacementEnabled: Bool
     @Binding var selectedModel: String?
-    let imageList = ["fender", "toy"]
+    let imageList = ["petruk", "semar"]
 
     var body: some View {
         ScrollView(.horizontal) {
