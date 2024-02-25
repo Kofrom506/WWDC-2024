@@ -1,0 +1,45 @@
+//
+//  WayangView.swift
+//  wayangAR
+//
+//  Created by Evan Susanto on 25/02/24.
+//
+
+import SwiftUI
+
+
+struct WayangViewPetruk : View {
+    @EnvironmentObject var screenRouter: ScreenRouter
+    @State private var isPlacement = false
+    @State private var selectedModel: String?
+    @State private var modelConfirmedForPlacement: String?
+    
+    var body: some View {
+        ZStack(alignment: .bottomTrailing, content: {
+            ARViewContainer( modelConfirmedForPlacement: $modelConfirmedForPlacement).ignoresSafeArea()
+//            ARViewContainer(modelConfirmedForPlacement: $modelConfirmedForPlacement).ignoresSafeArea()
+            if !isPlacement{
+                VStack {
+                    ImageItem(isPlacementEnabled: $isPlacement, selectedModel: $selectedModel, isSemar: false)
+                    
+                    
+                }
+            }else{
+                HStack(alignment: .center){
+                    BottomButtonView(isPlacementEnabled: $isPlacement, selectedModel: $selectedModel, modelConfirmedForPlacement: $modelConfirmedForPlacement)
+                }
+               
+            }
+            Button("Back") {
+                screenRouter.navigateTo(.selectView)
+            }
+            })
+
+        
+    }
+}
+
+
+#Preview {
+    WayangViewPetruk()
+}

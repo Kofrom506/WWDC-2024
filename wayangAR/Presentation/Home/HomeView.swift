@@ -21,10 +21,7 @@ struct HomeView: View {
                     Spacer()
                     
                     NavigatePage(image: "start", destination: .selectView, geo: geo, multiplier: 0.4)
-                    Button("StringProtocol") {
-                        print("Debug Value: \(screenRouter.navigateTo(.home))")
-                        screenRouter.navigateTo(.selectView)
-                    }
+                   
                     Spacer()
                         .frame(height: geo.size.height * 0.1)
                 }
@@ -37,8 +34,9 @@ struct HomeView: View {
 }
 
 
-#Preview {
-    HomeView()
-        .previewInterfaceOrientation(.landscapeLeft)
-
+struct HomeView_Previews: PreviewProvider {
+    static var previews: some View {
+        HomeView()
+            .previewInterfaceOrientation(.landscapeLeft)
+    }
 }

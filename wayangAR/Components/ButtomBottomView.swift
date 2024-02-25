@@ -12,6 +12,7 @@ struct BottomButtonView : View {
     @Binding var selectedModel: String?
     @Binding var modelConfirmedForPlacement: String?
     var models: [String] = []
+    
     var body: some View {
         
         HStack(content: {

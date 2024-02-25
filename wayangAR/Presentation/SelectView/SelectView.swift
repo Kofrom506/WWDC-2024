@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SelectView: View {
     @EnvironmentObject var screenRouter: ScreenRouter
+ 
     var body: some View {
         GeometryReader{ geo in
             ZStack{
@@ -18,15 +19,15 @@ struct SelectView: View {
                     .edgesIgnoringSafeArea(.all)
                     .frame(width: geo.size.width, height: geo.size.height, alignment: .center)
                 VStack(alignment: .center){
-                    
-                    Spacer()
+
                     HStack {
                         Spacer()
-                        NavigatePage(image: "start", destination: .selectView, geo: geo, multiplier: 0.4)
+                        
+                        NavigatePage(image: "select", destination: .onBoardingPetruk, geo: geo, multiplier: 0.3)
                         Spacer()
-                        NavigatePage(image: "start", destination: .selectView, geo: geo, multiplier: 0.4)
+                        NavigatePage(image: "select", destination: .onBoardingSemar, geo: geo, multiplier: 0.3)
                         Spacer()
-                    }
+                    }  .padding(.top, geo.size.height * 0.8)
                    
                     Spacer()
                         .frame(height: geo.size.height * 0.1)
@@ -40,7 +41,10 @@ struct SelectView: View {
 }
 
 
-#Preview {
-    SelectView()
-        .previewInterfaceOrientation(.landscapeLeft)
+
+struct OnboardingView_Previews: PreviewProvider {
+    static var previews: some View {
+        SelectView()
+            .previewInterfaceOrientation(.landscapeLeft)
+    }
 }

@@ -10,10 +10,10 @@ import RealityKit
 import ARKit
 
 struct ContentView : View {
-    let screenRouter = ScreenRouter(rootScreen: .selectView, factory: ScreenRouterFactory())
+    let screenRouter = ScreenRouter(rootScreen: .home, factory: ScreenRouterFactory())
     var body: some View {
         ZStack{
-            SelectView()
+            MainView()
 //                .environment(.scree)
             
 //            HomeView()

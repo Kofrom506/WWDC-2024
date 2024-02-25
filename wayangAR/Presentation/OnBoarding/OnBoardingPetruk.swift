@@ -8,9 +8,10 @@
 import SwiftUI
 
 
-struct OnboardingView: View {
+struct OnboardingViewPetruk: View {
     
     @EnvironmentObject var screenRouter: ScreenRouter
+    var data: [OnboardingData] = OnboardingData.listPetruk
     @State private var currentStep = 0
     var body: some View {
         
@@ -20,7 +21,7 @@ struct OnboardingView: View {
                 VStack {
                     GeometryReader { geo in
                         TabView (selection: $currentStep) {
-                            ForEach(OnboardingData.list) { it in
+                            ForEach(data) { it in
                                 VStack {
                                     ZStack {
                                         Image(it.objectImage)
@@ -31,7 +32,7 @@ struct OnboardingView: View {
                                     .background(
                                         ZStack(alignment: .top) {
                                             
-                                            JColor.greenSoft.ignoresSafeArea(.all)
+                                            JColor.gradientGreenBG.ignoresSafeArea(.all)
                             
                                         }
                                     )
@@ -76,18 +77,18 @@ struct OnboardingView: View {
                     .edgesIgnoringSafeArea(.all)
                     
                     
-                    PrimaryButton(title: currentStep < OnboardingData.list.count - 1 ? "Continue" : "See Wayang In AR", backgroundColor: JColor.greenSoft, foregroundColor: .white,strokeColor: .white){
-                        if self.currentStep < OnboardingData.list.count - 1 {
+                    PrimaryButton(title: currentStep < data.count - 1 ? "Continue" : "See Wayang In AR", backgroundColor: JColor.orange, foregroundColor: .white,strokeColor: .white){
+                        if self.currentStep < data.count - 1 {
                             self.currentStep += 1
                         } else {
-                            screenRouter.navigateTo(.home)
+                            screenRouter.navigateTo(.wayangViewPetruk)
                         }
                     }
                     .padding(.vertical, ViewPadding.small)
                     .padding(.horizontal, ViewPadding.xmedium)
                     
                     Button {
-                        self.currentStep = OnboardingData.list.count - 1
+                        self.currentStep = data.count - 1
                     } label: {
                         Text("Skip")
                             .font(JFont.regular())
@@ -110,3 +111,11 @@ struct OnboardingView: View {
       }
 }
 
+
+
+struct OnBoarding_Previews: PreviewProvider {
+    static var previews: some View {
+        OnboardingViewPetruk(data: OnboardingData.listPetruk)
+            .previewInterfaceOrientation(.landscapeLeft)
+    }
+}

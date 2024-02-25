@@ -16,6 +16,7 @@ struct NavigatePage: View {
     var multiplier: CGFloat = 0.15
     let action: (() -> Void)?
     
+    
     init(image: String, destination: ScreenRoute, geo: GeometryProxy, multiplier: CGFloat = 0.15, action:  (() -> Void)? = nil) {
         self.image = image
         self.destination = destination

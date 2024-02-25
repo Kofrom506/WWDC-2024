@@ -11,12 +11,18 @@ struct ImageItem: View {
     
     @Binding var isPlacementEnabled: Bool
     @Binding var selectedModel: String?
-    let imageList = ["petruk", "semar"]
+    
+    
+    let isSemar : Bool 
+    
+    
+    let imageListPetruk = ["petruk"]
+    let imageListSemar = ["semar"]
 
     var body: some View {
         ScrollView(.horizontal) {
                    HStack(spacing: 10) {
-                       ForEach(imageList, id: \.self) { imageName in
+                       ForEach(isSemar ? imageListSemar : imageListPetruk, id: \.self) { imageName in
                            Button(action: {
                                self.isPlacementEnabled = true
                                self.selectedModel = imageName

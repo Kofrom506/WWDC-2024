@@ -4,16 +4,19 @@ import SwiftUI
 
 enum ScreenRoute: ScreenProtocol {
     case home
-    case onBoarding
-    case wayangView
-    case arView
+    case onBoardingSemar
+    case onBoardingPetruk
+    case wayangViewSemar
+    case wayangViewPetruk
+
     case selectView
+    
     
     var embedInNavView: Bool {
         switch self {
         case .home:
             return true
-        case .onBoarding, .selectView, .wayangView, .arView:
+        case .onBoardingSemar, .selectView, .wayangViewSemar,.wayangViewPetruk, .onBoardingPetruk:
             return false
        
         }
@@ -25,14 +28,17 @@ class ScreenRouterFactory: RouterFactory {
         switch screen {
         case .home:
             HomeView()
-        case .arView:
-            ARViewContainer(modelConfirmedForPlacement: .constant(""))
-        case .wayangView:
-            WayangView()
-        case .onBoarding:
-            OnboardingView()
+       
+        case .wayangViewPetruk:
+            WayangViewPetruk()
+        case .onBoardingSemar:
+            OnboardingViewSemar()
+        case .onBoardingPetruk:
+            OnboardingViewPetruk()
         case .selectView:
             SelectView()
+        case .wayangViewSemar:
+            WayangViewSemar()
         }
         
     }
